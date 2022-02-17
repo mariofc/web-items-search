@@ -1,0 +1,56 @@
+@import url('./styles/normalize.scss');
+
+body {
+  font-family: "Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif,sans-serif;
+  background-color: #ebebeb;
+  color: #333;
+  font-size: 15px;
+}
+
+/* Nav Bar */
+.container {
+  background-color: #fff159;
+  height: 70px;
+}
+
+.nav-header {
+  max-width: 1180px;
+  margin: auto;
+  padding: 12px 0;
+}
+
+.nav-header .logo {
+  background-image: url(https://http2.mlstatic.com/frontend-assets/ui-navigation/5.18.8/mercadolibre/logo__large_plus@2x.png);
+  -webkit-background-size: 134px 34px;
+  background-size: 134px 34px;
+  height: 34px;
+  top: 16px;
+  width: 134px;
+  position: absolute;
+}
+
+.nav-header form {
+  margin-left: 150px;
+}
+.nav-header input[type=text] {
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+  height: 30px;
+  padding: 7px 7px 4px 15px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background-color: #fff;
+  border: 0 rgba(0,0,0,.2);
+  width: 75%
+}
+
+.nav-header button {
+  border: none;
+  height: 41px;
+  padding: 7px;
+  font-size: 20px;
+  margin: 0;
+  cursor: pointer;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+  color: #555;
+}
+

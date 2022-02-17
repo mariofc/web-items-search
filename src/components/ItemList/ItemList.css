@@ -1,0 +1,51 @@
+/* Search List */
+.list-items {
+  max-width: 1180px;
+  margin: auto;
+  background-color: #fff;
+}
+
+.list-items a.card {
+  color: #333
+}
+.list-items .item {
+  position: relative;
+  height: 240px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.list-items .item .image {
+  padding: 10px
+}
+
+.list-items .item img {
+  width: 200px;
+  margin: 25px;
+}
+
+.list-items .item .card-image,
+.list-items .item .card-content {
+  float: left;
+  padding: 10px 0;
+  overflow: hidden;
+  height: 190px;
+}
+
+.list-items .item .card-address {
+  float: right;
+  padding: 10px 130px;
+  overflow: hidden;
+  height: 100px;
+  margin-top: 50px;
+  font-size: 14px;
+  opacity: 0.5
+}
+
+.list-items .item .card-content .amount{
+  font-size: 22px;
+}
+
+.list-items .item .card-content .amount sup{
+  margin-left: 3px;
+  font-size: 0.8rem;
+}
